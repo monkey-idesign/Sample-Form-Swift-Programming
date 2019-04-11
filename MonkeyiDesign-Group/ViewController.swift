@@ -57,7 +57,8 @@ class ViewController: UIViewController {
     let signUpButton: UIButton = {
         let tf = UIButton(type: .system)
         tf.setTitle(" Sign Up", for: .normal)
-        tf.backgroundColor = UIColor(red:0.27, green:0.56, blue:0.96, alpha:1.0)
+        //tf.backgroundColor = UIColor(red:0.27, green:0.56, blue:0.96, alpha:1.0)
+        tf.backgroundColor = UIColor.rgb(red: 68, green: 142, blue: 246)
         tf.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
         tf.layer.cornerRadius = 5
         tf.setTitleColor(.white, for: .normal)
